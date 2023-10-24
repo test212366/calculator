@@ -1,0 +1,96 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 89.7vh;
+  background: linear-gradient(45deg, #40d9b7 17%, #1a4bc1);
+  background: -moz-linear-gradient(45deg, #40d9b7 17%, #1a4bc1);
+}
+
+input {
+  border: none;
+}
+
+button {
+  padding: 20px 17px 20px 17px;
+  border: none;
+}
+
+.wrapper {
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+.calculator {
+  padding: 15px 10px 65px 10px;
+  background-color: rgba(0, 255, 255, 0.308);
+  margin-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  grid-column: 1 / -1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 34px;
+}
+
+.nemul {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4 / 5;
+}
+
+.zero {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.equal {
+  color: #fff;
+  background-color: #2700d3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+.oper {
+  color: #2700d3;
+}
+
+.num {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.ac {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+p {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
